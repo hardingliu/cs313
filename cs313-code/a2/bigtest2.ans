@@ -1,0 +1,146 @@
+Opened /home/c/cs313/2016w2/a2_sol/MEM/bigtest2.mem, starting offset 0x0000000000000000
+
+PC           icode ifun  rA rB        valC           ValClsb  valCmsb       valP         Instruction
+00000000 :     0     0    -  -                                        0000000000000001     halt
+00000001 :     0     0    -  -                                        0000000000000002     halt
+00000100 :     2     0    0  0                                        0000000000000102     rrmovq
+00000102 :     2     0    0  1                                        0000000000000104     rrmovq
+00000104 :     2     0    0  2                                        0000000000000106     rrmovq
+00000106 :     2     0    0  3                                        0000000000000108     rrmovq
+00000108 :     2     0    0  6                                        000000000000010A     rrmovq
+0000010A :     2     0    0  7                                        000000000000010C     rrmovq
+0000010C :     2     0    0  4                                        000000000000010E     rrmovq
+0000010E :     2     0    0  5                                        0000000000000110     rrmovq
+00000110 :     2     0    1  6                                        0000000000000112     rrmovq
+00000112 :     2     0    2  6                                        0000000000000114     rrmovq
+00000114 :     2     0    3  6                                        0000000000000116     rrmovq
+00000116 :     2     0    6  6                                        0000000000000118     rrmovq
+00000118 :     2     0    7  6                                        000000000000011A     rrmovq
+0000011A :     2     0    4  6                                        000000000000011C     rrmovq
+0000011C :     2     0    5  6                                        000000000000011E     rrmovq
+0000011E :     3     0    F  0    00000000DEADBEEF  EFBEADDE 00000000 0000000000000128     irmovq
+00000128 :     3     0    F  1    00000000DEADBEEF  EFBEADDE 00000000 0000000000000132     irmovq
+00000132 :     3     0    F  2    00000000DEADBEEF  EFBEADDE 00000000 000000000000013C     irmovq
+
+PC           icode ifun  rA rB        valC           ValClsb  valCmsb       valP         Instruction
+0000013C :     3     0    F  3    00000000DEADBEEF  EFBEADDE 00000000 0000000000000146     irmovq
+00000146 :     3     0    F  6    00000000DEADBEEF  EFBEADDE 00000000 0000000000000150     irmovq
+00000150 :     3     0    F  7    00000000DEADBEEF  EFBEADDE 00000000 000000000000015A     irmovq
+0000015A :     3     0    F  4    00000000DEADBEEF  EFBEADDE 00000000 0000000000000164     irmovq
+00000164 :     3     0    F  5    00000000DEADBEEF  EFBEADDE 00000000 000000000000016E     irmovq
+0000016E :     0     0    -  -                                        000000000000016F     halt
+0000016F :     0     0    -  -                                        0000000000000170     halt
+00000500 :     4     0    0  0    0000BEEFDEADFEED  EDFEADDE EFBE0000 000000000000050A     rmmovq
+0000050A :     4     0    0  1    00000000BEEFDEAD  ADDEEFBE 00000000 0000000000000514     rmmovq
+00000514 :     4     0    0  2    00000000BEEFDEAD  ADDEEFBE 00000000 000000000000051E     rmmovq
+0000051E :     4     0    0  3    0000BEEFDEADFEED  EDFEADDE EFBE0000 0000000000000528     rmmovq
+00000528 :     4     0    0  6    00000000BEEFDEAD  ADDEEFBE 00000000 0000000000000532     rmmovq
+00000532 :     4     0    0  7    00000000BEEFDEAD  ADDEEFBE 00000000 000000000000053C     rmmovq
+0000053C :     4     0    0  4    0000BEEFDEADFEED  EDFEADDE EFBE0000 0000000000000546     rmmovq
+00000546 :     4     0    0  5    00000BEEFDEADFED  EDDFEAFD EE0B0000 0000000000000550     rmmovq
+00000550 :     4     0    0  0    00000000BEEFDEAD  ADDEEFBE 00000000 000000000000055A     rmmovq
+0000055A :     4     0    1  0    00000000BEEFDEAD  ADDEEFBE 00000000 0000000000000564     rmmovq
+00000564 :     4     0    2  0    00000000BEEFDEAD  ADDEEFBE 00000000 000000000000056E     rmmovq
+0000056E :     4     0    3  0    00000000BEEFDEAD  ADDEEFBE 00000000 0000000000000578     rmmovq
+00000578 :     4     0    6  0    BEEFDEAD77778889  89887777 ADDEEFBE 0000000000000582     rmmovq
+
+PC           icode ifun  rA rB        valC           ValClsb  valCmsb       valP         Instruction
+00000582 :     4     0    7  0    00000000BEEFDEAD  ADDEEFBE 00000000 000000000000058C     rmmovq
+0000058C :     4     0    4  0    00000000BEEFDEAD  ADDEEFBE 00000000 0000000000000596     rmmovq
+00000596 :     4     0    5  0    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005A0     rmmovq
+000005A0 :     5     0    0  0    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005AA     mrmovq
+000005AA :     5     0    0  1    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005B4     mrmovq
+000005B4 :     5     0    0  2    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005BE     mrmovq
+000005BE :     5     0    0  3    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005C8     mrmovq
+000005C8 :     5     0    0  6    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005D2     mrmovq
+000005D2 :     5     0    0  7    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005DC     mrmovq
+000005DC :     5     0    0  4    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005E6     mrmovq
+000005E6 :     5     0    0  5    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005F0     mrmovq
+000005F0 :     5     0    0  0    00000000BEEFDEAD  ADDEEFBE 00000000 00000000000005FA     mrmovq
+000005FA :     5     0    1  0    01600060BEEFDEAD  ADDEEFBE 60006001 0000000000000604     mrmovq
+00000604 :     6     0    0  2                                        0000000000000606     addq
+00000606 :     6     0    0  3                                        0000000000000608     addq
+00000608 :     6     0    0  6                                        000000000000060A     addq
+0000060A :     6     0    0  7                                        000000000000060C     addq
+0000060C :     6     0    0  4                                        000000000000060E     addq
+0000060E :     6     0    0  5                                        0000000000000610     addq
+00000610 :     6     0    1  6                                        0000000000000612     addq
+
+PC           icode ifun  rA rB        valC           ValClsb  valCmsb       valP         Instruction
+00000612 :     6     0    2  6                                        0000000000000614     addq
+00000614 :     6     0    3  6                                        0000000000000616     addq
+00000616 :     6     0    6  6                                        0000000000000618     addq
+00000618 :     6     0    7  6                                        000000000000061A     addq
+0000061A :     6     0    4  6                                        000000000000061C     addq
+0000061C :     6     0    5  6                                        000000000000061E     addq
+0000061E :     6     0    1  0                                        0000000000000620     addq
+00000620 :     6     0    1  8                                        0000000000000622     addq
+00000622 :     6     0    2  9                                        0000000000000624     addq
+00000624 :     6     0    3  A                                        0000000000000626     addq
+00000626 :     6     0    6  B                                        0000000000000628     addq
+00000628 :     6     0    7  C                                        000000000000062A     addq
+0000062A :     6     0    4  D                                        000000000000062C     addq
+0000062C :     6     0    5  E                                        000000000000062E     addq
+0000062E :     6     0    E  5                                        0000000000000630     addq
+00000630 :     6     0    C  8                                        0000000000000632     addq
+00000632 :     6     0    C  9                                        0000000000000634     addq
+00000634 :     6     0    B  A                                        0000000000000636     addq
+00000636 :     6     0    A  B                                        0000000000000638     addq
+00000638 :     6     0    9  C                                        000000000000063A     addq
+
+PC           icode ifun  rA rB        valC           ValClsb  valCmsb       valP         Instruction
+0000063A :     6     0    8  D                                        000000000000063C     addq
+0000063C :     6     0    4  E                                        000000000000063E     addq
+0000063E :     6     1    1  6                                        0000000000000640     subq
+00000640 :     6     2    2  6                                        0000000000000642     andq
+00000642 :     6     3    3  6                                        0000000000000644     xorq
+00000644 :     7     0    -  -    0000000000DADDAD  ADDDDA00 00000000 000000000000064D     jmp
+0000064D :     7     1    -  -    0000000000DADDAD  ADDDDA00 00000000 0000000000000656     jle
+00000656 :     7     2    -  -    0000000000DADDDA  DADDDA00 00000000 000000000000065F     jl
+0000065F :     7     3    -  -    0000000000DADDAD  ADDDDA00 00000000 0000000000000668     je
+00000668 :     7     4    -  -    0000000000DADDAD  ADDDDA00 00000000 0000000000000671     jn
+00000671 :     7     5    -  -    0000000000DADDAD  ADDDDA00 00000000 000000000000067A     jge
+0000067A :     7     6    -  -    0000000000DADDAD  ADDDDA00 00000000 0000000000000683     jg
+00000683 :     2     2    0  0                                        0000000000000685     cmovl
+00000685 :     2     2    0  1                                        0000000000000687     cmovl
+00000687 :     2     2    0  2                                        0000000000000689     cmovl
+00000689 :     2     2    0  3                                        000000000000068B     cmovl
+0000068B :     2     2    0  6                                        000000000000068D     cmovl
+0000068D :     2     2    0  7                                        000000000000068F     cmovl
+0000068F :     2     2    0  4                                        0000000000000691     cmovl
+00000691 :     2     2    0  5                                        0000000000000693     cmovl
+
+PC           icode ifun  rA rB        valC           ValClsb  valCmsb       valP         Instruction
+00000693 :     9     0    -  -                                        0000000000000694     ret
+00000694 :     2     2    1  6                                        0000000000000696     cmovl
+00000696 :     2     2    2  6                                        0000000000000698     cmovl
+00000698 :     2     2    3  6                                        000000000000069A     cmovl
+0000069A :     2     2    6  6                                        000000000000069C     cmovl
+0000069C :     2     2    7  6                                        000000000000069E     cmovl
+0000069E :     2     2    4  6                                        00000000000006A0     cmovl
+000006A0 :     2     2    5  6                                        00000000000006A2     cmovl
+000006A2 :     8     0    -  -    1234567890123456  56341290 78563412 00000000000006AB     call
+000006AB :     2     1    1  6                                        00000000000006AD     cmovle
+000006AD :     2     2    2  6                                        00000000000006AF     cmovl
+000006AF :     2     4    3  6                                        00000000000006B1     cmovn
+000006B1 :     2     5    6  6                                        00000000000006B3     cmovge
+000006B3 :     2     6    7  6                                        00000000000006B5     cmovg
+000006B5 :     A     0    0  F                                        00000000000006B7     pushq
+000006B7 :     A     0    1  F                                        00000000000006B9     pushq
+000006B9 :     A     0    2  F                                        00000000000006BB     pushq
+000006BB :     A     0    3  F                                        00000000000006BD     pushq
+000006BD :     A     0    6  F                                        00000000000006BF     pushq
+000006BF :     A     0    7  F                                        00000000000006C1     pushq
+
+PC           icode ifun  rA rB        valC           ValClsb  valCmsb       valP         Instruction
+000006C1 :     A     0    4  F                                        00000000000006C3     pushq
+000006C3 :     A     0    5  F                                        00000000000006C5     pushq
+000006C5 :     B     0    0  F                                        00000000000006C7     popq
+000006C7 :     B     0    1  F                                        00000000000006C9     popq
+000006C9 :     B     0    2  F                                        00000000000006CB     popq
+000006CB :     B     0    3  F                                        00000000000006CD     popq
+000006CD :     B     0    6  F                                        00000000000006CF     popq
+000006CF :     B     0    7  F                                        00000000000006D1     popq
+000006D1 :     B     0    4  F                                        00000000000006D3     popq
+000006D3 :     B     0    5  F                                        00000000000006D5     popq
+Normal termination 

@@ -1,0 +1,9 @@
+Opened /home/c/cs313/2016w2/a2_sol/MEM/poptest.mem, starting offset 0x0000000000000000
+
+PC           icode ifun  rA rB        valC           ValClsb  valCmsb       valP         Instruction
+00000000 :     3     0    F  4    0000000000000100  00010000 00000000 000000000000000A     irmovq
+0000000A :     3     0    F  0    000000000000ABCD  CDAB0000 00000000 0000000000000014     irmovq
+00000014 :     A     0    0  F                                        0000000000000016     pushq
+00000016 :     B     0    4  F                                        0000000000000018     popq
+00000018 :     0     0    -  -                                        0000000000000019     halt
+Normal termination 
