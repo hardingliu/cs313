@@ -6,7 +6,7 @@ extern int heapsort(int last);
  * Global array and its length.
  */
 int heap_size = 13;
-int heap[] = { 4, 15, 6, 2, 21, 17, 11, 16, 8, 13, 14, 1, 9 };
+int heap[] = {4, 15, 6, 2, 21, 17, 11, 16, 8, 13, 14, 1, 9};
 
 /*
  * Swap the two elements at the indicated positions.
@@ -17,7 +17,7 @@ void swap(int index1, int index2)
     heap[index1] = heap[index2];
     heap[index2] = tmp;
 }
-    
+
 /*
  * Helper for heapify_node: checks to see if child's key is larger than the
  * parent's.
@@ -46,34 +46,34 @@ void heapify_node(int index, int last)
 
     do
     {
-	/*
+        /*
 	 * Check to see if left child's key is larger than the node's.
 	 */
-	left_child = 2 * index + 1;
-	if (check_child(left_child, highest, last))
+        left_child = 2 * index + 1;
+        if (check_child(left_child, highest, last))
         {
-	    highest = left_child;
-	}
+            highest = left_child;
+        }
 
-	/*
+        /*
 	 * Check to see if right child's key is larger than the node's.
 	 */
-	right_child = 2 * index + 2;
-	if (check_child(right_child, highest, last))
+        right_child = 2 * index + 2;
+        if (check_child(right_child, highest, last))
         {
-	    highest = right_child;
-	}
+            highest = right_child;
+        }
 
-	/*
+        /*
 	 * Swap keys if necessary.
 	 */
         need_to_swap = index != highest;
 
-	if (need_to_swap)
+        if (need_to_swap)
         {
-	    swap(index, highest);
-	    index = highest;
-	}
+            swap(index, highest);
+            index = highest;
+        }
 
     } while (need_to_swap);
 }
@@ -85,9 +85,9 @@ void heapify_array(int last)
 {
     int i;
 
-    for (i = (last - 1)/2; i >= 0; i--)
+    for (i = (last - 1) / 2; i >= 0; i--)
     {
-	heapify_node(i, last);
+        heapify_node(i, last);
     }
 }
 
@@ -96,7 +96,7 @@ void heapify_array(int last)
  */
 int extract_max(int last)
 {
-    int max =  heap[0];
+    int max = heap[0];
 
     heap[0] = heap[last];
     heapify_node(0, last - 1);
@@ -113,7 +113,7 @@ void print()
 
     for (i = 0; i < heap_size; i++)
     {
-	printf("%d\n", heap[i]);
+        printf("%d\n", heap[i]);
     }
     putchar('\n');
 }
